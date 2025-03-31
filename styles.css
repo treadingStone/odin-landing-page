@@ -41,7 +41,7 @@ header ul li {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 5rem 22rem;
+    padding: 3rem 22rem;
     gap: 3rem;
 }
 
@@ -84,6 +84,10 @@ header ul li {
     color: #F9FAF8
 }
 
+.info {
+    padding-bottom: 3rem;
+}
+
 .info h1 {
     padding: 2rem;
     text-align: center;
@@ -109,4 +113,27 @@ header ul li {
 .images .container p {
     text-align: center;
     color: #797979;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 3rem 0;
+}
+
+.quote p:nth-child(1) {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 800px;
+    color: #1F2937
+}
+
+.quote p:nth-child(2) {
+    width: 800px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 2rem;
 }
