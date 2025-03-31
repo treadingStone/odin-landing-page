@@ -8,8 +8,17 @@ h1 {
     line-height: 1;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -164,4 +173,13 @@ header ul li {
     height: 1.8rem;
     width: 6rem;
     border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 1;
 }
