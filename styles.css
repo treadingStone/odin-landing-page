@@ -83,3 +83,30 @@ header ul li {
     background-color: #e5e7eb77;
     color: #F9FAF8
 }
+
+.info h1 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.info .image-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.images .container {
+    width: 150px;
+}
+
+.images .container p {
+    text-align: center;
+    color: #797979;
+}
