@@ -137,3 +137,31 @@ header ul li {
     font-weight: bold;
     padding-right: 2rem;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.cta .container {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 3rem;
+    width: 800px;
+    border-radius: 8px;
+}
+
+.cta button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    font-weight: bold;
+    height: 1.8rem;
+    width: 6rem;
+    border-radius: 5px;
+}
